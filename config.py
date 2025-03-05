@@ -24,7 +24,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Telegram Link : https://t.me/Digital_Botz 
+Telegram Link : https://t.me/TeamAnimePedia
 Repo Link : https://github.com/DigitalBotz/Digital-Rename-Bot
 License Link : https://github.com/DigitalBotz/Digital-Rename-Bot/blob/main/LICENSE
 """
@@ -34,21 +34,21 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "27419615")
+    API_HASH = os.environ.get("API_HASH", "2f4b181296f0a2615a85471a1c72df44")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQGiY98AhC6YDOTilbYuWSKv2Pi5AAOa1P00-EcNBWQFFrFZNwWodtW4At-ioDFevA6pn-rxqrfPbFVtPAkLEYR6q4z-5e6y1CuEuVwU_Uvk9wUS2d34qlOHzQK-C8rKEhYl9UBnEY-udggzjQWDI6nV7swivdsHPDZQNL3IDO7diRlmp1H9H_WgbBuB5WTkKhwO68hsJxfLzoe1FpNmmv0GppXN_1zMJVHdpECGilMjE2kA-PQJFAw2WFPE0FG6FiVthiYus5lsGpEJ8E-Tv68UCRNQlQdgcsCysSTXTN0w2RDnZBUHzLyhRNFhP6UEwV8CrB-6W6Ohi5fBklCLy23w9YEv2AAAAABbeKK6AA")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","PrimeRp")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://PrimeRp:JNTymVXjKzBbDtiv@cluster0.rydwk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/f68485a91495405874fbf-e850a37999c8e3aee0.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1534632634').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002098787584"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
@@ -61,7 +61,7 @@ class Config(object):
     try:
         FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "Otaku_Atlas")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
@@ -76,7 +76,7 @@ class rkn(object):
 𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Otaku_Atlas 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -93,7 +93,7 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
 
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/DigitalBotz_Support>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Woshang_Gang>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 """
 
     UPGRADE_PREMIUM= """
@@ -169,13 +169,13 @@ V𝟹.𝟶.𝟶 [STABLE]
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title @Otaku_Atlas
+--change-video-title @Otaku_Atlas
+--change-audio-title @Otaku_Atlas
+--change-subtitle-title @Rkn_@Otaku_AtlasBotz
+--change-author @Otaku_Atlas'
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Itsofficial_RP
 """
     
     CUSTOM_FILE_NAME = """
@@ -190,8 +190,8 @@ you can pre-add a prefix and suffix along with your new filename
 ➢ /see_suffix - Tᴏ Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx !!
 ➢ /del_suffix - Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx !!
 
-Exᴀᴍᴩʟᴇ:- `/set_suffix @Digital_Botz`
-Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
+Exᴀᴍᴩʟᴇ:- `/set_suffix @Otaku_Atlas`
+Exᴀᴍᴩʟᴇ:- `/set_prefix @Otaku_Atlas`
 """
     
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
@@ -211,13 +211,13 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title @Otaku_Atlas
+--change-video-title @Otaku_Atlas
+--change-audio-title @Otaku_Atlas
+--change-subtitle-title @Otaku_Atlas
+--change-author @Otaku_Atlas`
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Itsofficial_RP
 """
     
     RKN_PROGRESS = """<b>\n
